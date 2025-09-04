@@ -1,36 +1,70 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>Biodata Sederhana</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f9;
-            text-align: center;
-            padding: 50px;
-        }
-        .card {
-            background: #fff;
-            padding: 20px;
-            width: 300px;
-            margin: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        img {
-            width: 100px;
-            border-radius: 50%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Biodata Mahasiswa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      width: 350px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .card h2 {
+      margin: 10px 0;
+      color: #333;
+    }
+    .info {
+      text-align: left;
+      margin-top: 15px;
+    }
+    .info p {
+      margin: 5px 0;
+      font-size: 14px;
+      color: #555;
+    }
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 8px 15px;
+      text-decoration: none;
+      background: #4CAF50;
+      color: white;
+      border-radius: 8px;
+    }
+    a:hover {
+      background: #45a049;
+    }
+  </style>
 </head>
 <body>
-    <div class="card">
-        <img src="https://via.placeholder.com/100" alt="Foto Profil">
-        <h2>Ahmad Rizky</h2>
-        <p><b>NPM:</b> 23081070010006</p>
-        <p><b>Jurusan:</b> Informatika</p>
-        <p><b>Cita-cita:</b> Software Engineer</p>
+  <div class="card">
+    <img src="https://via.placeholder.com/120" alt="Foto Profil">
+    <h2>Ahmad Rizky</h2>
+    <div class="info">
+      <p><b>NPM:</b> 23081070010006</p>
+      <p><b>Jurusan:</b> Informatika</p>
+      <p><b>Cita-cita:</b> Software Engineer</p>
     </div>
+    <a href="hobi.html">Lihat Hobi</a>
+  </div>
 </body>
 </html>
